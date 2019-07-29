@@ -102,7 +102,7 @@ MIN_CHEMICAL = 1 / MAX_CHEMICAL_TIME
 
 class Chemicals(object):
 
-    decay_rate = 0.1
+    decay_rate = 0.001
 
     def __init__(self, size=(MAX_X, MAX_Y)):
         self.search = PeriodicLattice(np.zeros(size))

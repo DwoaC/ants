@@ -1,17 +1,15 @@
 import random
 
 import matplotlib.pyplot as plt
-import numpy as np
 
 from core.ant import Chemicals, Nest
-from experiments.image_search_strategies import build_ants, run, plot_search, \
-    plot_chemical, plot_chemicals
+from experiments.image_search_strategies import build_ants, run, plot_chemicals
 
 
 
 if __name__ == '__main__':
     random.seed = 1
-    n_ants = 100
+    n_ants = 1000
     n_ticks = 1000
     size = (40, 40)
 

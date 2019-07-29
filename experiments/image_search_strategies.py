@@ -69,7 +69,7 @@ def run(n_ticks, ants):
         ant.chemicals.tick()
         nest.tick()
 
-        if t % 100 == 0:
+        if t % 10 == 0:
             fig, axes = plt.subplots(2, 2)
             plot_chemicals(ants, axes)
             axes[1, 1].plot(nest.food_history)
